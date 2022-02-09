@@ -1,0 +1,134 @@
+/* &display=swap */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900,700italic,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,700,700italic");
+@import url("https://fonts.googleapis.com/css?family=Carattere:400");
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 400;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+	color: rgb(84, 159, 189);
+	text-decoration: underline;
+	text-shadow: -5px 5px 15px rgb(188, 97, 216);
+}
+.header {
+}
+.img {
+	display: block;
+	margin: 0 auto;
+}
+.main {
+
+}
+.text {
+	display: inline-block;
+	vertical-align: top;
+	font-family: Ubuntu;
+	font-style: italic;
+	max-width: 400px;
+	min-height: 250px;
+	margin: 0 0 0 150px;
+	overflow: hidden;
+}
+h2 {
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+	color: blueviolet;
+	margin-bottom: 40px;
+	margin-top: 50px;
+	text-align:center;
+	text-shadow: 5px 5px 15px red;
+}
+p {
+	color: rgb(9, 9, 158);
+	text-shadow: 8px 8px 8px rgb(52, 141, 137);
+	text-indent: 25px;
+	margin-bottom: 50px;
+
+}
+.preparation {
+	font-family: Ubuntu;
+	font-size: 10px;
+	max-width: 800px;
+	padding: 50px 0 0 400px;
+}
+.option {
+	font-style: italic;
+	font-weight: 900;
+}
+.process {
+	text-align: justify;
+	font-weight: 300;
+	line-height: 30px;
+}
+.point1 {
+	text-align: right;
+	color: rgb(0, 60, 255);
+	text-decoration: line-through;
+	text-transform: capitalize;
+}
+.point2 {
+	text-align: center;
+	font-weight: 700;
+	font-style: italic;
+	color: rgb(226, 125, 43);
+	text-decoration: overline;
+
+}
+.point3 {
+	text-align: left;
+	text-decoration: overline;
+	color: rgb(150, 204, 62);
+	letter-spacing: 10px;
+}
+.point4 {
+	text-align: left;
+	font-family: Carattere;
+	color: rgb(81, 47, 90);
+	text-transform: uppercase;
+}
+.point5 {
+	text-align: center;
+	word-spacing: 20px;
+	color: rgb(92, 28, 28);
+}
+.point6 {
+	text-align: right;
+	font-size: 22px;
+	font-weight: 700;
+	color: rgb(51, 19, 19);
+}
+.point7 {
+	color: rgb(92, 40, 40);
+	text-decoration: underline;
+}
+#fin {
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: right;
+	color: brown;
+	margin: 0 600px 50px 0;
+	font-weight: 900;
+}
+.footer {
+	margin-left: 500px;
+}
+.link {
+	display: inline-block;
+	color: aqua;
+	padding: 0 0 20px 0;
+}
